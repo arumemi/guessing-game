@@ -1,0 +1,36 @@
+body{
+   background: rgba(236, 234, 234, 0.979);
+   font-family: 'Segoe UI',  Verdana, sans-serif;
+   text-align: center;
+   padding-top: 60px;
+}
+.game-container{
+   max-width: 400px;
+   margin: auto;
+   padding: 30px;
+   background: white;
+   border-radius: 12px;
+   box-shadow: 0 5px rgba(0, 0, 0, 0.3);
+}
+input, button{
+   padding: 10px 15px;
+   margin: 10px;
+   font-size: 1rem;
+   border-radius: 5px ;
+   border-radius: 1px solid #ccc;
+
+}
+button{
+   background-color: #007bff;
+   color:  white;
+   cursor: pointer ;
+   border: none;
+}
+button:hover{
+   background-color: #0056b3;
+}
+#message{
+   font-size: 1.2rem;
+   font-weight: bold;
+   margin-top: 15px;
+}
